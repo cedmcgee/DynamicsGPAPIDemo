@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DynamicsGPAPI.Models
+{
+    public partial class Sop40100
+    {
+        public string Commntid { get; set; }
+        public short Setupkey { get; set; }
+        public byte Dpyitmcs { get; set; }
+        public byte Dqtyswar { get; set; }
+        public byte Trkvdtrx { get; set; }
+        public byte Calckitc { get; set; }
+        public byte Newrates { get; set; }
+        public byte Trmstnum { get; set; }
+        public int Nxtmstno { get; set; }
+        public byte Quote { get; set; }
+        public byte Prder { get; set; }
+        public byte Invoretu { get; set; }
+        public byte Acdstrbn { get; set; }
+        public string Locncode { get; set; }
+        public string Chekbkid { get; set; }
+        public short Dfqtysop { get; set; }
+        public string Quodocid { get; set; }
+        public string Orddocid { get; set; }
+        public string Bacdocid { get; set; }
+        public string Invdocid { get; set; }
+        public string Retdocid { get; set; }
+        public short Decplqty { get; set; }
+        public short Decplcur { get; set; }
+        public short Useacfrm { get; set; }
+        public short Useadvtx { get; set; }
+        public string Taxschid { get; set; }
+        public short Nonivtxb { get; set; }
+        public string Nonivsch { get; set; }
+        public short Frgttxbl { get; set; }
+        public string Frtschid { get; set; }
+        public short Misctxbl { get; set; }
+        public string Mscschid { get; set; }
+        public short Mpackslp { get; set; }
+        public short Mpicktic { get; set; }
+        public short PriceLevelWarning { get; set; }
+        public byte Sopallow1 { get; set; }
+        public byte Sopallow2 { get; set; }
+        public byte Sopallow3 { get; set; }
+        public byte Sopallow4 { get; set; }
+        public byte Sopallow5 { get; set; }
+        public byte Sopallow6 { get; set; }
+        public byte Sopallow7 { get; set; }
+        public byte Sopallow8 { get; set; }
+        public byte Sopallow9 { get; set; }
+        public byte Sopallow10 { get; set; }
+        public string Soppsswd1 { get; set; }
+        public string Soppsswd2 { get; set; }
+        public string Soppsswd3 { get; set; }
+        public string Soppsswd4 { get; set; }
+        public string Soppsswd5 { get; set; }
+        public string Soppsswd6 { get; set; }
+        public string Soppsswd7 { get; set; }
+        public string Soppsswd8 { get; set; }
+        public string Soppsswd9 { get; set; }
+        public string Soppsswd10 { get; set; }
+        public byte[] Ivcdstck { get; set; }
+        public int Numoftrx { get; set; }
+        public string Usrdfpr1 { get; set; }
+        public string Usrdrpr2 { get; set; }
+        public string Usrdrpr3 { get; set; }
+        public string Usrdrpr4 { get; set; }
+        public string Usrdrpr5 { get; set; }
+        public string Usrdrpr6 { get; set; }
+        public string Usrdrpr7 { get; set; }
+        public string Usrdrpr8 { get; set; }
+        public string Usrdrpr9 { get; set; }
+        public string Usrdrp10 { get; set; }
+        public string Usrdrp11 { get; set; }
+        public string Usrdrp12 { get; set; }
+        public string Usrdfpr13 { get; set; }
+        public string Usrdfpr14 { get; set; }
+        public string Usrdfpr15 { get; set; }
+        public string Usrdfpr16 { get; set; }
+        public string Usrdfpr17 { get; set; }
+        public DateTime Creatddt { get; set; }
+        public DateTime Modifdt { get; set; }
+        public short Reqship { get; set; }
+        public short Reqdays { get; set; }
+        public short Sitepref { get; set; }
+        public string Prefsite { get; set; }
+        public short Reqdatepo { get; set; }
+        public short RequiredDays { get; set; }
+        public short Umdefault { get; set; }
+        public byte Combonpo { get; set; }
+        public byte Txbasecs { get; set; }
+        public byte Useorguc { get; set; }
+        public byte PricesNotRequiredInPr { get; set; }
+        public string PasswordUpper { get; set; }
+        public byte ConvertFunctionalPrice { get; set; }
+        public short Indvpickticketsort { get; set; }
+        public short Printavailablebins { get; set; }
+        public string Fodocid { get; set; }
+        public byte CombineDropshipSolines { get; set; }
+        public byte CombineDropshipSodocs { get; set; }
+        public int DexRowId { get; set; }
+    }
+}
