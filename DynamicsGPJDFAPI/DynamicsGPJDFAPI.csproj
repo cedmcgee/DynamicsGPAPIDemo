@@ -7,6 +7,9 @@
     <ApplicationInsightsResourceId>/subscriptions/242c7d3f-3664-4ae3-a0b8-257c9b36dc6c/resourcegroups/RSG_SouthCentralUS/providers/microsoft.insights/components/ApplicationInsightsDemo</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/242c7d3f-3664-4ae3-a0b8-257c9b36dc6c/resourcegroups/RSG_SouthCentralUS/providers/microsoft.insights/components/ApplicationInsightsDemo</ApplicationInsightsAnnotationResourceId>
     <DockerTargetOS>Windows</DockerTargetOS>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <FileVersion>4.0.0.0</FileVersion>
+    <Version>4.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
