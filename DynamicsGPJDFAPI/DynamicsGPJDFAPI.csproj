@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>de3506a8-fe1a-4da6-8c79-39386297a348</UserSecretsId>
-    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
+    <!-- <PackageTargetFallback>portable-net45+win8</PackageTargetFallback> -->
     <ApplicationInsightsResourceId>/subscriptions/242c7d3f-3664-4ae3-a0b8-257c9b36dc6c/resourcegroups/RSG_SouthCentralUS/providers/microsoft.insights/components/ApplicationInsightsDemo</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/242c7d3f-3664-4ae3-a0b8-257c9b36dc6c/resourcegroups/RSG_SouthCentralUS/providers/microsoft.insights/components/ApplicationInsightsDemo</ApplicationInsightsAnnotationResourceId>
     <DockerTargetOS>Windows</DockerTargetOS>
